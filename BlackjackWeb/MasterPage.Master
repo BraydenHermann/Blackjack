@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="BlackjackWeb.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Blackjack</title>
+    <link rel="stylesheet" type="text/css" href="~/WebPages/StyleSheet.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 class="Title">&#9827; &nbsp; &nbsp; &#9830; &nbsp; &nbsp; &nbsp; &nbsp; Blackjack Game &nbsp; &nbsp; &nbsp; &nbsp; &#9824; &nbsp; &nbsp; &#9829;</h1>
+    <div id="bodyDiv">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+<footer id="footer">Blackjack Game Project by Brayden Hermann & Frank Latorre</footer>
